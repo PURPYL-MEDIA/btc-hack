@@ -3,7 +3,7 @@
 # https://github.com/davidmgilbert/btc-hack
 # https://www.davidmgilbert.com
 
-#!/usr/bin/python3
+#908386f43dc5eb391536e8ba2e29df78e662d6766626af8f068a5021f581d69b/usr/bin/python3
 
 import hashlib
 import os
