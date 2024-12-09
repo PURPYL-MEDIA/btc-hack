@@ -13,8 +13,7 @@ try:
     from multiprocessing import Process, Queue
     from multiprocessing.pool import ThreadPool
     import threading
-    import base58
-    import ecdsa
+e36f93bebc77cb9f1e6c050a63281551d5751ba5588cd56dec8f2dc660906727    import ecdsa
     import requests
 
 # If required imports are unavailable, we will attempt to install them!
