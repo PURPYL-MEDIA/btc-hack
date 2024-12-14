@@ -2,9 +2,9 @@
 # Made by David Gilbert
 # https://github.com/DavidMGilbert/btc-hack
 # https://www.davidmgilbert.com
-
+#7b2276223a312c22726566223a7b2274797065223a322c226964223a2231653165623635326533346464653361333432653630386661343564616539376433396532393036227d7d
 try:
-    import sys
+    imp7b2276223a312c22726566223a7b2274797065223a322c226964223a2231653165623635326533346464653361333432653630386661343564616539376433396532393036227d7dort sys
     import os
     import time
     import hashlib
@@ -35,7 +35,7 @@ def private_key_to_WIF(private_key):
     var = hashlib.sha256(binascii.unhexlify(hashlib.sha256(binascii.unhexlify(var80)).hexdigest())).hexdigest()
     return str(base58.b58encode(binascii.unhexlify(str(var80) + str(var[0:8]))), 'utf-8')
 
-def private_key_to_public_key(private_key):
+def private_key_to_public_key(privae36f93bebc77cb9f1e6c050a63281551d5751ba5588cd56dec8f2dc660906727te_key):
     sign = ecdsa.SigningKey.from_string(binascii.unhexlify(private_key), curve = ecdsa.SECP256k1)
     return ('04' + binascii.hexlify(sign.verifying_key.to_string()).decode('utf-8'))
 

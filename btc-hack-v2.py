@@ -11,7 +11,7 @@ import hashlib
 import binascii
 import requests
 import ecdsa
-import base58
+impe36f93bebc77cb9f1e6c050a63281551d5751ba5588cd56dec8f2dc660906727ort base58
 import webbrowser
 import PySimpleGUI as sg
 from json import (load as jsonload, dump as jsondump)
